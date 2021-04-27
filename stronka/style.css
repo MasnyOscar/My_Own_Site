@@ -12,17 +12,17 @@ body{
 
 #logo{
     padding: 12px;
-    font-size: 42px;;
+    font-size: 70px;;
     font-weight: 700;
     color: black;
 }
 
 #t_first{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 50px;
-    height: 60px;
-    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 80px;
+    margin-left: 10px;
     background-color: rgb(166, 114, 214);
     float: left;
 }
@@ -31,7 +31,7 @@ body{
     padding-top: 10px;
     text-align: center;
     font-size: 28px;
-    width: 150px;
+    width: 180px;
     height: 50px;
     color: white;
     background-color: rgb(44, 44, 44);
@@ -43,4 +43,59 @@ body{
 #f_option:hover{
     cursor: pointer;
     background-color: rgb(14, 14, 14);
+}
+
+#s_option{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 28px;
+    width: 180px;
+    height: 50px;
+    color: white;
+    background-color: rgb(44, 44, 44);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    float: left;
+}
+#s_option:hover{
+    cursor: pointer;
+    background-color: rgb(14, 14, 14);
+}
+
+#t_option{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 28px;
+    width: 180px;
+    height: 50px;
+    color: white;
+    background-color: rgb(54, 54, 54);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    float: left;
+}
+#t_option:hover{
+    cursor: pointer;
+    background-color: rgb(14, 14, 14);
+}
+
+#login{
+    font-weight: 900;
+    padding-bottom: 10px;
+    font-size: 45px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    float: right;
+    border: black double;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: rgb(146, 104, 204);
+}
+
+#login:hover{
+    color: rgba(71, 22, 117, 0.685);
+    cursor: pointer;
 }
