@@ -8,6 +8,7 @@ body{
     background-color: white;
     color: transparent;
     height: 100px;
+    clear: both;
 }
 
 #logo{
@@ -97,5 +98,44 @@ body{
 
 #login:hover{
     color: rgba(71, 22, 117, 0.685);
+    cursor: pointer;
+}
+
+#left_bar{
+    font-size: 17px;
+    font-weight: 700;
+    margin-right: 20px;
+    float: left;
+    width: 8%;
+    height: 690px;
+}
+
+#content{
+    float: left;
+    font-size: 20px;
+    padding-top: 30px;
+    color: black;
+    margin-top: 10000px;
+    width: 80%;
+    margin: auto;
+    height: 200px;
+}
+
+.left_menu{
+    font-size: 22px;
+    margin-top: 20px;
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    height: 30px;
+    border-bottom: black solid;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.left_menu:hover{
+    background-color: rgb(166, 114, 214);
+    color: white;
     cursor: pointer;
 }
